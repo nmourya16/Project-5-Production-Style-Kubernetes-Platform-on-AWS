@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: project5-app-config
+  namespace: project5
+data:
+  APP_ENV: "production"
+  APP_NAME: "project5-app"

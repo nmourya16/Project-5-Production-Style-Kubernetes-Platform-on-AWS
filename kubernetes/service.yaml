@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: project5-app-service
+  namespace: project5
+spec:
+  selector:
+    app: project5-app
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: ClusterIP

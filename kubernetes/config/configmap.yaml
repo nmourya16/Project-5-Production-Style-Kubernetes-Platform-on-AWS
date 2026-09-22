@@ -6,3 +6,4 @@ metadata:
 data:
   APP_ENV: "production"
   APP_NAME: "project5-app"
+  GITOPS_MANAGED: "true"
